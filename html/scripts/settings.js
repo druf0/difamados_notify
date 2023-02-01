@@ -55,7 +55,7 @@ function initSettings() {
   userSettings = JSON.parse(localStorage.getItem('NotifySettings'))
 
   if (userSettings == null) {
-    localStorage.setItem('k5NotifySettings', JSON.stringify(defaultSettings))
+    localStorage.setItem('NotifySettings', JSON.stringify(defaultSettings))
     userSettings = defaultSettings
   }
 
